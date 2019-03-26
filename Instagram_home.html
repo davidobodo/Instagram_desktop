@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+
+		.container{
+			height: 80px;}
+		input[type=text] {
+		  width: 210px;
+		  box-sizing: border-box;
+		  border: 1px solid #e8e8e8;
+		  border-radius: 4px;
+		  font-size: 16px;
+		  color: #b7b9b8;
+		  background-color: #fafafa;
+		  background-position: 10px 10px; 
+		  background-repeat: no-repeat;
+		  padding-left: 80px;
+		}
+
+		#header{
+			background-color: #ffffff;
+			border-bottom: 1px solid #e8e8e8;
+			height: 80px;
+		}
+
+
+		body{background-color: #fafafa;}
+
+		#logo1{
+			width: 40px;
+			padding: 4px 15px 4px 0;
+			border-right: 1px solid black;
+		}
+
+		h3{padding: 0 0 0px 15px;
+			margin:0;}
+
+		#logo2{
+			width: 32px;
+		}
+
+		#logo3{
+			width: 50px;
+		}
+
+		#logo4{
+			width: 27px;
+		}
+
+		.profilename{
+			border-bottom: 1px solid #e8e8e8;
+			height: 60px;
+		}
+
+		.content{
+			background-color: white;
+			border-radius: 2px;
+			border:1px solid #e8e8e8;
+		}
+
+		h6{
+			margin-bottom: 0;
+		}
+
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0;
+			font-size: 12px;
+			color: #939393;
+		}
+
+		li{
+			margin-left: 10px;
+			list-style-type: none;
+		}
+
+		.row{
+			height: 80px;
+		}
+
+		
+	</style>
+
+</head>
+<body>
+	<div id="header">
+		<div class="container ">
+		  <div class="row d-flex">
+
+		    <div class="col d-flex align-items-center">
+		      <div><img src="logo1.png" id="logo1"></div>
+		      <h3>Instagram</h3>
+		    </div>
+
+		    <div class="col-5 d-flex justify-content-center align-items-center" >
+		     	<form>
+				  <input type="text" name="search" placeholder="Search">
+				</form>
+		    </div>
+
+		    <div class="col d-flex align-items-center justify-content-around">
+		      
+			    <div style="width: 60%;" class="d-flex align-items-center justify-content-around">
+				      <div><img src="logo2.png" id="logo2"></div>
+				      <div><img src="logo3.png" id="logo3"></div>
+				      <div><img src="logo4.png" id="logo4"></div>
+				</div>
+
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<div>
+		
+		<div class="row justify-content-center" style=" margin-top: 60px;">
+
+			<div class="col-5 content" style="margin-right: 30px;padding: 0;">
+				<div class="profilename d-flex align-items-center">
+					<img src="dave.jpg" style="width: 40px; height: 40px; margin: 0 20px;">
+					<h6>obododavid</h6>
+				</div>
+				<div>
+					<video width="100%" controls="controls" style="padding: 10px;">
+						<source src="daric.mp4" type="video/mp4">
+						
+					</video>
+				</div>
+			</div>
+
+			 <div class="col-2 d-flex flex-column" style=";margin-right: 70px; height: 600px; padding: 0px;">
+			    <div class="d-flex" style=" margin-bottom: 10px;flex: 1;">
+			    	<img src="dave.jpg" style="width: 50px; height: 50px; margin-right: 20px;">
+			    	<div>
+			    		<h6><strong>obododavid</strong></h6>
+			    		<p style="font-size: 13px;color: #939393;">Obodo David</p>
+			    	</div>
+			    </div>
+			    <div class="content" style="margin-bottom: 10px;flex: 3;">
+			    	
+			    	<div class="d-flex justify-content-between align-items-center" style="height: 20%;padding: 10px;">
+			    		<h6 style="color: #939393"><strong>Stories</strong></h6>
+			    		<h6>Watch all</h6>
+			    	</div>
+			    	<div style="overflow-y: scroll; overflow-x: hidden;"></div>
+				 </div>
+			    <div class="content" style="margin-bottom: 10px;flex: 3;">
+			    	<div class="d-flex justify-content-between align-items-center" style="height: 20%;padding: 10px;">
+			    		<h6 style="color: #939393"><strong>Suggestions For You</strong></h6>
+			    		<h6>See all</h6>
+			    	</div>
+			    	<div style="overflow-y: scroll; overflow-x: hidden;"></div>
+
+			    </div>
+			    <div style="margin-bottom: 10px;flex: 1">
+			    	<ul>
+			    		<li>About Us</li>
+			    		<li>Support</li>
+			    		<li>Press</li>
+			    		<li>API</li>
+			    		<li>Jobs</li>
+			    		<li>Privacy</li>
+			    		<li>Terms</li>
+			    		<li>Directory</li>
+			    		<li>Profiles</li>
+			    		<li>Hashtags</li>
+			    		<li>Language</li>
+			    	</ul>
+			    </div>
+	 		 </div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
